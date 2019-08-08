@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materias"
+    android:background="@drawable/login">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rltv1">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/list"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="145dp"
+                android:textSize="40sp"
+                android:text="Examen"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@+id/rltv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Elije una materia para continuar..."
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="25dp"/>
+
+            <RadioButton
+                android:id="@+id/rdb1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:onClick="radio1"
+                android:text="Lengua Española" />
+
+            <RadioButton
+                android:id="@+id/rdb2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rdb1"
+                android:layout_marginStart="25dp"
+                android:onClick="radio2"
+                android:text="Matematicas"/>
+
+            <RadioButton
+                android:id="@+id/rdb3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rdb2"
+                android:layout_marginStart="25dp"
+                android:onClick="radio3"
+                android:text="Ciencias Sociales"/>
+
+            <RadioButton
+                android:id="@+id/rdb4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rdb3"
+                android:layout_marginStart="25dp"
+                android:onClick="radio4"
+                android:text="Naturales"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

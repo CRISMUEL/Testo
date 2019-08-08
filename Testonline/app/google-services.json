@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "152677893150",
+    "firebase_url": "https://testonline-fb669.firebaseio.com",
+    "project_id": "testonline-fb669",
+    "storage_bucket": "testonline-fb669.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152677893150:android:d9e0277734b01236",
+        "android_client_info": {
+          "package_name": "com.example.jgilb.testonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152677893150-fuu3r4o20phcjidldtm8eg6j8uht2q0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxiEsLiYoScjZcLuiSSeZgQX94VRb_GKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152677893150-fuu3r4o20phcjidldtm8eg6j8uht2q0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".language"
+    android:background="@drawable/login">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rltv1">
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/list"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginStart="120dp"
+                android:textSize="20sp"
+                android:text="Examen de Lengua Española"
+                android:textStyle="italic"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/rltv2"
+            android:layout_below="@+id/rltv1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecciona la respuesta correcta"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:layout_marginStart="25dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/rltv3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@id/rltv2"
+            android:padding="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="10dp"
+                android:text="Opcion A"
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"/>
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:text="Opcion B"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:text="Opcion C"
+                android:id="@+id/btn3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/rltv3"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:id="@+id/time1"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
